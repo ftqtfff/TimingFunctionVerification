@@ -1,0 +1,14 @@
+[options]
+mode bmc
+depth 165
+
+
+[engines]
+smtbmc
+
+[script]
+read -formal bwe.sv
+prep -top bwe
+
+[files]
+bwe.sv
