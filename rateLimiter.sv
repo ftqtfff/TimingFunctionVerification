@@ -84,13 +84,11 @@ module rateLimiter (
      if(!$initstate) begin
       assume(rst == 0);
       
-      //other assumptions     
-      /*necessary assumption -s*/
+      //constraints
       if(startCnt<=pktNumber)assume(pktStart == 1); 
       assume(startCnt<=pktNumber + 1);  //set upper bound
       if(globalTimer == totalCycles)assume(endCnt == pktNumber);
       if(globalTimer == totalCycles)assume(error == 0);
-      /*necessary assumption -e*/
       assume(state<=2);
       //-----//
       
