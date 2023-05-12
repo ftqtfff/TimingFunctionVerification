@@ -1,3 +1,4 @@
+//retransmit a packet if the sender does not receive ACK after a specific RTT. The retransmission time will increase as the number of failures increases.
 module retranTimer (
   input clk,
   input rst,
