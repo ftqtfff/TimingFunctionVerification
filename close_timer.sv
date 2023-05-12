@@ -1,3 +1,4 @@
+// When the close timer receives a session close signal, it will hold the program for a period of time before closing the session.
 module closeTimer (
   input clk,
   input rst,
