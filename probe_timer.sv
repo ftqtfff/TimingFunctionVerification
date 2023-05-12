@@ -1,3 +1,4 @@
+//Determine IPDs of packets at different sessions, and also determine the type (small or large size) of packets
 module probeTimer (
   input clk,
   input rst,
