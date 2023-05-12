@@ -1,4 +1,4 @@
-
+//Set the transmission rate from MAC layer to PHY layer
 
 // Language: Verilog 2001
 
