@@ -1,4 +1,4 @@
-
+//Generate a square wave signal based on a set of inputs or parameters
 
 // Language: Verilog 2001
 
