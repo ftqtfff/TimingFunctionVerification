@@ -1,3 +1,5 @@
+// record the total transmission time and the non-transmission time of probing packets.
+// property: total time = transmission time + non-transmission time
 module bandwith_reg #
     (
         // Users to add parameters here
