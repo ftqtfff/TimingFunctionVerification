@@ -1,3 +1,4 @@
+// record how many receiving IPDs are larger than or equal to sending IPDs
 module bwe (
   input clk,
   input rst,
