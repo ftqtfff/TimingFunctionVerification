@@ -1,4 +1,4 @@
-
+//A clock for synchronization in PTP protocol (time drift, offset adjustment)
 
 // Language: Verilog 2001
 
