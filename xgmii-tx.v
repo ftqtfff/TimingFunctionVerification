@@ -1,3 +1,5 @@
+//MAC layer transmission component
+
 /*
 
 Copyright (c) 2015-2017 Alex Forencich
