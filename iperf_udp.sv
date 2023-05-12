@@ -1,6 +1,4 @@
-/*WRITE_PKG --->  wordCount>=totalCount ---> recordTime, if Time>threshold  last pkg, other wise not last pkg*/
-//timeOut to avoid congestion, so we go to WAIT_RESPONSE state.
-
+// two gaps used in iperf, one gap to set IPD among packets, the other to set wait time between two streams of packets to avoid congestion
 module iperfudp (
   input clk,
   input rst,
@@ -201,3 +199,5 @@ end
 `endif
 
 endmodule
+/* Note: WRITE_PKG --->  wordCount>=totalCount ---> recordTime, if Time>threshold, then it is the last pkg, otherwise it is not the last pkg*/
+/* timeOut to avoid congestion, so we go to WAIT_RESPONSE state. */
